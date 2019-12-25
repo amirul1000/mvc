@@ -1,5 +1,5 @@
 <ul class="right-side-content d-flex align-items-center">
-    <!--<li class="nav-item dropdown">
+	<!--<li class="nav-item dropdown">
         <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="border-radius-none" src="<?php echo base_url(); ?>public/riktheme/img/core-img/l3.jpg" alt=""></button>
         <div class="dropdown-menu language-dropdown dropdown-menu-right">
             <a href="#" class="dropdown-item"><img src="<?php echo base_url(); ?>public/riktheme/img/core-img/l1.jpg" alt=""> IND</a>
@@ -8,12 +8,12 @@
             <a href="#" class="dropdown-item"><img src="<?php echo base_url(); ?>public/riktheme/img/core-img/l4.jpg" alt=""> RTY</a>
         </div>
     </li>-->
-    <!-- Full Screen Mode -->
-    <!--<li class="full-screen-mode ml-1">
+	<!-- Full Screen Mode -->
+	<!--<li class="full-screen-mode ml-1">
         <a href="javascript:" id="fullScreenMode"><i class="zmdi zmdi-fullscreen"></i></a>
     </li>-->
 
-    <!--<li class="nav-item dropdown">
+	<!--<li class="nav-item dropdown">
         <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon_globe-2" aria-hidden="true"></i></button>
 
         <div class="dropdown-menu dropdown-menu-right">
@@ -37,7 +37,7 @@
         </div>
     </li>-->
 
-    <!--<li class="nav-item dropdown">
+	<!--<li class="nav-item dropdown">
         <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon_lightbulb_alt" aria-hidden="true"></i> <span class="active-status"></span></button>
         <div class="dropdown-menu dropdown-menu-right">
             <div class="top-notifications-area">
@@ -64,53 +64,58 @@
         </div>
     </li>-->
 
-    <li class="nav-item dropdown">
-        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	<li class="nav-item dropdown">
+		<button type="button" class="btn dropdown-toggle"
+			data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          <?php
-		  if(is_file(APPPATH.'../public/'.$this->session->userdata['file_picture'])&&file_exists(APPPATH.'../public/'.$this->session->userdata['file_picture']))
-		   {
-		 ?>
-			  <img class="border-radius-50" src="<?php echo base_url().'public/'.$this->session->userdata['file_picture']?>" alt="">
+        if (is_file(APPPATH . '../public/' . $this->session->userdata['file_picture']) && file_exists(APPPATH . '../public/' . $this->session->userdata['file_picture'])) {
+            ?>
+			  <img class="border-radius-50"
+				src="<?php echo base_url().'public/'.$this->session->userdata['file_picture']?>"
+				alt="">
 		<?php
-			}
-			else
-			{
-		?>
-			  <img class="border-radius-50" src="<?php echo base_url()?>public/uploads/no_image.jpg">
-		<?php		
-			}
-		  ?>
-        </button>  
-        <div class="dropdown-menu dropdown-menu-right">
-            <!-- User Profile Area -->
-            <div class="user-profile-area">
-                <div class="user-profile-heading">
-                    <!-- Thumb -->
-                    <div class="profile-thumbnail">
+        } else {
+            ?>
+			  <img class="border-radius-50"
+				src="<?php echo base_url()?>public/uploads/no_image.jpg">
+		<?php
+        }
+        ?>
+        </button>
+		<div class="dropdown-menu dropdown-menu-right">
+			<!-- User Profile Area -->
+			<div class="user-profile-area">
+				<div class="user-profile-heading">
+					<!-- Thumb -->
+					<div class="profile-thumbnail">
                     <?php
-					  if(is_file(APPPATH.'../public/'.$this->session->userdata['file_picture'])&&file_exists(APPPATH.'../public/'.$this->session->userdata['file_picture']))
-					   {
-					 ?>
-					      <img class="border-radius-50" src="<?php echo base_url().'public/'.$this->session->userdata['file_picture']?>" alt="">
+                    if (is_file(APPPATH . '../public/' . $this->session->userdata['file_picture']) && file_exists(APPPATH . '../public/' . $this->session->userdata['file_picture'])) {
+                        ?>
+					      <img class="border-radius-50"
+							src="<?php echo base_url().'public/'.$this->session->userdata['file_picture']?>"
+							alt="">
 					<?php
-						}
-						else
-						{
-					?>
-					      <img class="border-radius-50" src="<?php echo base_url()?>public/uploads/no_image.jpg">
-					<?php		
-						}
-					  ?>
+                    } else {
+                        ?>
+					      <img class="border-radius-50"
+							src="<?php echo base_url()?>public/uploads/no_image.jpg">
+					<?php
+                    }
+                    ?>
                     </div>
-                    <!-- Profile Text -->
-                    <div class="profile-text">
-                        <h6><?php echo $this->session->userdata['first_name']?> <?php echo $this->session->userdata['last_name']?></h6>
-                        <!--<span><?php echo $this->session->userdata['first_name']?></span>-->
-                    </div>
-                </div>
-                <a href="<?php echo site_url('admin/profile/index'); ?>" class="dropdown-item"><i class="ti-user text-default" aria-hidden="true"></i> My profile</a>
-                <a href="<?php echo site_url('admin/login/do_logout'); ?>" class="dropdown-item"><i class="ti-unlink text-warning" aria-hidden="true"></i> Sign-out</a>
-            </div>
-        </div>
-    </li>
+					<!-- Profile Text -->
+					<div class="profile-text">
+						<h6><?php echo $this->session->userdata['first_name']?> <?php echo $this->session->userdata['last_name']?></h6>
+						<!--<span><?php echo $this->session->userdata['first_name']?></span>-->
+					</div>
+				</div>
+				<a href="<?php echo site_url('admin/profile/index'); ?>"
+					class="dropdown-item"><i class="ti-user text-default"
+					aria-hidden="true"></i> My profile</a> <a
+					href="<?php echo site_url('admin/login/do_logout'); ?>"
+					class="dropdown-item"><i class="ti-unlink text-warning"
+					aria-hidden="true"></i> Sign-out</a>
+			</div>
+		</div>
+	</li>
 </ul>

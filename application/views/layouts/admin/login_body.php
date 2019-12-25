@@ -1,3 +1,3 @@
 <?php
-   include("./application/views/".$_view.".php"); 
+include ("./application/views/" . $_view . ".php");
 ?>

@@ -1,6 +1,6 @@
 <div class="row">
-	
-    <div class="col-12 col-sm-6 col-md-6 col-xl-3">
+
+	<div class="col-12 col-sm-6 col-md-6 col-xl-3">
 		<div class="card">
 			<div class="card-body">
 				<div class="chartjs-size-monitor">
@@ -17,16 +17,15 @@
 					<div
 						class="text-success font-weight-bold d-flex justify-content-between align-items-center">
 						<i class="fa fa-arrow-right mr-1"></i> <span
-							class=" text-extra-small">
-                            <a href="">View</a>
-                            </span>
+							class=" text-extra-small"> <a href="">View</a>
+						</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-    
-    <div class="col-12 col-sm-6 col-md-6 col-xl-3">
+
+	<div class="col-12 col-sm-6 col-md-6 col-xl-3">
 		<div class="card">
 			<div class="card-body">
 				<div class="chartjs-size-monitor">
@@ -43,16 +42,15 @@
 					<div
 						class="text-success font-weight-bold d-flex justify-content-between align-items-center">
 						<i class="fa fa-arrow-right mr-1"></i> <span
-							class=" text-extra-small">
-                            <a href="">View</a>
-                            </span>
+							class=" text-extra-small"> <a href="">View</a>
+						</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-    
-    <div class="col-12 col-sm-6 col-md-6 col-xl-3">
+
+	<div class="col-12 col-sm-6 col-md-6 col-xl-3">
 		<div class="card">
 			<div class="card-body">
 				<div class="chartjs-size-monitor">
@@ -69,16 +67,15 @@
 					<div
 						class="text-success font-weight-bold d-flex justify-content-between align-items-center">
 						<i class="fa fa-arrow-right mr-1"></i> <span
-							class=" text-extra-small">
-                            <a href="">View</a>
-                            </span>
+							class=" text-extra-small"> <a href="">View</a>
+						</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-    
-    <div class="col-12 col-sm-6 col-md-6 col-xl-3">
+
+	<div class="col-12 col-sm-6 col-md-6 col-xl-3">
 		<div class="card">
 			<div class="card-body">
 				<div class="chartjs-size-monitor">
@@ -95,13 +92,12 @@
 					<div
 						class="text-success font-weight-bold d-flex justify-content-between align-items-center">
 						<i class="fa fa-arrow-right mr-1"></i> <span
-							class=" text-extra-small">
-                            <a href="">View</a>
-                            </span>
+							class=" text-extra-small"> <a href="">View</a>
+						</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-    
+
 </div>
