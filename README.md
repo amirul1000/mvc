@@ -37,9 +37,7 @@ It manipulates data and send back to the database or use it to render the same d
 
 
 
-Youtube Tutorial : https://youtu.be/Rx_p0OCnvXI
-
-Youtube Channel : https://www.youtube.com/channel/UC2Q4oWfoMQzi6AES8Vb2vQw?view_as=subscriber
+Youtube Tutorial : https://youtu.be/aUlrgYLHTw4
 
 Donate to Paypal : patabuz@gmail.com
 
